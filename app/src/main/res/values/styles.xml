@@ -1,0 +1,87 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="detail_title">
+        <item name="android:textSize">@dimen/title_text_size</item>
+    </style>
+
+    <style name="detail_average">
+        <item name="android:textSize">48sp</item>
+    </style>
+
+    <style name="detail_overview">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">@dimen/padding_8</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="detail_release">
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+
+    <style name="favourite_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="error_message">
+        <item name="android:padding">@dimen/padding_16</item>
+        <item name="android:textSize">@dimen/text_size_20</item>
+    </style>
+
+    <style name="detail_labels">
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/padding_8</item>
+        <item name="android:layout_marginLeft">@dimen/padding_8</item>
+        <item name="android:layout_marginRight">@dimen/padding_8</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="detail_dynamic_linear">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginBottom">@dimen/padding_8</item>
+        <item name="android:layout_marginLeft">@dimen/padding_8</item>
+        <item name="android:layout_marginRight">@dimen/padding_8</item>
+    </style>
+
+    <style name="recycler_view_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="detail_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingLeft">@dimen/padding_8</item>
+        <item name="android:paddingRight">@dimen/padding_8</item>
+        <item name="android:paddingBottom">@dimen/padding_8</item>
+    </style>
+
+    <style name="detail_item_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginTop">@dimen/high_1</item>
+        <item name="android:layout_marginLeft">@dimen/padding_8</item>
+        <item name="android:layout_marginRight">@dimen/padding_8</item>
+    </style>
+
+    <style name="detail_item_title" parent="detail_item">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

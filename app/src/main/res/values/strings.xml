@@ -1,0 +1,70 @@
+<resources>
+    
+    <!-- String resources used in my app -->
+    <string name="app_name">PopularMovies</string>
+    <string name="poster_description">Movie Poster</string>
+    <string name="app_title_highest">Top Rated</string>
+    <string name="app_title_popular">Popular</string>
+    <string name="app_title_favourites">Favourites</string>
+    <string name="overview">Overview</string>
+
+    <!-- Settings strings used for settings menu -->
+    <string name="rating_stars">Rate the movie</string>
+    <string name="settings_title">Settings</string>
+    <string name="setings_menu_item">Settings</string>
+
+    <string name="settings_search_label">Search</string>
+
+    <!-- Most popular settings -->
+    <string name="settings_most_popular">Most Popular</string>
+    <string name="settings_most_popular_value" translatable="false">popular</string>
+
+    <!-- Favourites settings -->
+    <string name="settings_favourites">Favourites</string>
+    <string name="settings_favourites_value" translatable="false">favourites</string>
+    <string name="add_to_favourites">Movie added to favourites</string>
+    <string name="remove_from_favourites">Movie removed from favourites</string>
+    <string name="no_favourites">Not any movie marked as Favourites.</string>
+
+    <!-- Top Rated settings -->
+    <string name="settings_highest_rated">Highest rated</string>
+    <string name="settings_highest_rated_value" translatable="false">top_rated</string>
+
+    <string name="refresh">Refresh</string>
+    <string name="release_icon">Release</string>
+    <string name="release_date">Release date</string>
+
+    <!-- Error messages -->
+    <string name="error_no_internet_connection">No Internet Connection</string>
+    <string name="error_message">Error, something went wrong</string>
+    <string name="error_movie_details">Movie details not available</string>
+
+    <!-- Trailer strings -->
+    <string name="trailer_label">Trailers</string>
+    <string name="no_trailer">No trailer available</string>
+    <string name="error_getting_trailer">Failed to retrieve data from server.</string>
+
+    <string name="settings_api_key_key" translatable="false">2ee0c244b559c73be9910d5b87e1f6da</string>
+    <string name="settings_api_key_default" translatable="false">2ee0c244b559c73be9910d5b87e1f6da</string>
+    <string name="settings_api_key_label">The Movie Database Api key</string>
+    <string name="settings_search_key">search_criteria</string>
+    <string name="settings_search_default" translatable="false">@string/settings_most_popular_value</string>
+
+    <string name="date">1994-09-23</string>
+    <string name="details_title">Movie Details</string>
+
+    <!-- Reviews -->
+    <string name="no_reviews">No reviews to show</string>
+    <string name="error_getting_reviews">Failed to retrieve data from server.</string>
+    <string name="review_label">Reviews</string>
+    <string name="rating_of10">/10</string>
+
+    <string name="movie_poster">Movie Poster</string>
+
+    <!-- API's  -->
+    <string name="EXTRA_MOVIE_ID">extra_movie_id</string>
+    <string name="BUNDLE_API_KEY">2ee0c244b559c73be9910d5b87e1f6da</string>
+    <string name="EXTRA_API_KEY">2ee0c244b559c73be9910d5b87e1f6da</string>
+    <string name="BUNDLE_ORDER_BY">order_by</string>
+
+</resources>
